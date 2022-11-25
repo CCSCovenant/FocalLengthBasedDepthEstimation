@@ -1,10 +1,10 @@
 # FocalLengthBasedDepthEstimation
 ## idea:
 with multiply imgs taking from single camera in different focal length. we can estimate the distance of a object to the camera
-with thier frequency imformation. 
+with thier frequency information. 
 
 -> due to taking multiply imgs from the single camera at same time is not very practical in many case, we may taking a video sequence 
-with focal length being a periodic function and use tempoal method to recover depth infromation in a small range of frame.
+with focal length being a periodic function and use tempoal method to recover depth information in a small range of frame.
 
 -> here we introduced an assumption that object in our sence is not moving very quick. 
 
